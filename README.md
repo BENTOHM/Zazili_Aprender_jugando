@@ -42,8 +42,9 @@ LLM: Google Generative AI SDK (gemini-3.1-flash-lite).
 
 ⚙️ Instrucciones de Instalación (Para Jueces y Desarrolladores)
 
-Por motivos de seguridad, la clave de la API de Google Gemini no está incluida en este repositorio. Para compilar y ejecutar el proyecto con la funcionalidad de chat activa, sigue estos pasos:
+Por motivos de seguridad, la clave de la API de Google Gemini no está incluida en este repositorio. Para compilar y ejecutar el proyecto con la funcionalidad de chat activa, entonces hay dos métodos de instalación el Try-Hard y el sencillo:
 
+A. Try-Hard:
 Clona el repositorio:
 
 git clone https://github.com/tu-usuario/zazili.git
@@ -64,6 +65,8 @@ GEMINI_MODEL_NAME=gemini-3.1-flash-lite
 Sincroniza Gradle (Sync Project with Gradle Files).
 
 Ejecuta la aplicación en un emulador o dispositivo físico (API 28+).
+
+B. El sencillo XD:
 
 Aunque también para facilidades del jurado hemos incluido un apk instalable 'Zazili_JugarEsAprender_V.1.0.1.apk' en cualquier teléfono Android en la carpeta 'installer_package_apk'
 Y ademas en la carpeta ´documentacion´ vienen todos los archivos con información como video demos, Metodología y UX y un Resumen/Abstract. 

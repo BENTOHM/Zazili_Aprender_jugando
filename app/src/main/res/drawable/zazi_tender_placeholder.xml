@@ -1,0 +1,88 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="256dp"
+    android:height="256dp"
+    android:viewportWidth="256"
+    android:viewportHeight="256">
+
+    <!-- Sombra suave -->
+    <path
+        android:fillColor="#1A2B0B3F"
+        android:pathData="M58,216 C58,208 89,202 128,202 C167,202 198,208 198,216 C198,224 167,230 128,230 C89,230 58,224 58,216 Z" />
+
+    <!-- Cuerpo -->
+    <path
+        android:fillColor="#58CC02"
+        android:pathData="M128,34 C176,34 210,70 210,126 C210,183 176,220 128,220 C80,220 46,183 46,126 C46,70 80,34 128,34 Z"
+        android:strokeColor="#3F9B00"
+        android:strokeWidth="4" />
+
+    <!-- Pancita -->
+    <path
+        android:fillColor="#A8E6CF"
+        android:pathData="M128,104 C160,104 184,130 184,160 C184,192 158,214 128,214 C98,214 72,192 72,160 C72,130 96,104 128,104 Z" />
+
+    <!-- Ala -->
+    <path
+        android:fillColor="#7B4B94"
+        android:pathData="M58,118 C78,106 100,116 104,138 C108,160 92,182 70,184 C52,185 42,168 44,150 C46,136 50,124 58,118 Z"
+        android:strokeColor="#5F3577"
+        android:strokeWidth="3" />
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M58,136 C66,130 80,132 84,144 C88,156 78,168 66,168"
+        android:strokeColor="#C9B0E0"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+
+    <!-- Mejillas -->
+    <path
+        android:fillColor="#F7B8C6"
+        android:pathData="M84,146 m-8,0 a8,8 0,1 0,16 0 a8,8 0,1 0,-16 0" />
+    <path
+        android:fillColor="#F7B8C6"
+        android:pathData="M172,146 m-8,0 a8,8 0,1 0,16 0 a8,8 0,1 0,-16 0" />
+
+    <!-- Ojos -->
+    <path
+        android:fillColor="#2B0B3F"
+        android:pathData="M104,112 m-11,0 a11,11 0,1 0,22 0 a11,11 0,1 0,-22 0" />
+    <path
+        android:fillColor="#2B0B3F"
+        android:pathData="M152,112 m-11,0 a11,11 0,1 0,22 0 a11,11 0,1 0,-22 0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M108,108 m-3.5,0 a3.5,3.5 0,1 0,7 0 a3.5,3.5 0,1 0,-7 0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M156,108 m-3.5,0 a3.5,3.5 0,1 0,7 0 a3.5,3.5 0,1 0,-7 0" />
+
+    <!-- Pico -->
+    <path
+        android:fillColor="#FFC800"
+        android:pathData="M118,134 L138,134 L128,150 Z"
+        android:strokeColor="#D9A400"
+        android:strokeWidth="2"
+        android:strokeLineJoin="round" />
+
+    <!-- Copete -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M118,40 C108,22 124,10 134,24 C142,12 158,18 152,34"
+        android:strokeColor="#7B4B94"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Corazón -->
+    <path
+        android:fillColor="#7B4B94"
+        android:pathData="M210,38 C210,29 201,24 194,30 C187,24 178,29 178,38 C178,49 194,60 194,60 C194,60 210,49 210,38 Z" />
+
+    <!-- Destellos -->
+    <path
+        android:fillColor="#FFC800"
+        android:pathData="M224,74 L228,84 L238,88 L228,92 L224,102 L220,92 L210,88 L220,84 Z" />
+    <path
+        android:fillColor="#A8E6CF"
+        android:pathData="M44,62 L47,70 L55,73 L47,76 L44,84 L41,76 L33,73 L41,70 Z" />
+</vector>

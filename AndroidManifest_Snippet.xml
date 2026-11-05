@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SNIPPET PARA ANDROIDMANIFEST.XML
+    ================================================================
+    Pega este bloque DENTRO de <application ...> ... </application>,
+    en app/src/main/AndroidManifest.xml.
+
+    Requisitos que este bloque resuelve:
+      - android:name EXACTO al receptor Glance declarado en
+        com.example.zazili.core.racha.StreakWidgetReceiver
+        (si el nombre no coincide, requestPinAppWidget falla en silencio).
+      - android:exported="true" para que AppWidgetManager pueda resolver
+        el proveedor al fijar el widget desde la app.
+      - El action APPWIDGET_UPDATE y la meta-data con @xml/info_widget_racha.
+
+    Este bloque ya está aplicado en el AndroidManifest.xml del proyecto;
+    se conserva aquí como referencia copiable.
+    ================================================================
+-->
+<receiver
+    android:name=".core.racha.StreakWidgetReceiver"
+    android:exported="true">
+    <intent-filter>
+        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+    </intent-filter>
+    <meta-data
+        android:name="android.appwidget.provider"
+        android:resource="@xml/info_widget_racha" />
+</receiver>

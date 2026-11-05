@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Icono adaptativo de Zazili (API 26+).
+
+    Lienzo de 108 x 108 dp:
+      - Zona segura circular: 66 dp de diámetro.
+      - El foreground se recorta con un inset de 18 dp por lado, así que Zazi
+        vive dentro de un cuadrado de 72 dp y nunca lo toca la máscara del
+        launcher (círculo, squircle o cuadro redondeado).
+
+    El inset real está en drawable/ic_launcher_foreground_inset.xml para que
+    el PNG de 512 px se escale sin deformarse y conserve margen de respiro.
+-->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/zazili_background" />
+    <foreground android:drawable="@drawable/ic_launcher_foreground_inset" />
+</adaptive-icon>

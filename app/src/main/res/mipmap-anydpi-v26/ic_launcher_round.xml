@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Variante redonda del icono adaptativo. Comparte el mismo inset de 18 dp
+    que ic_launcher.xml: ambas máscaras recortan exactamente las mismas capas,
+    así que Zazi se ve igual en cualquier lanzador.
+-->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/zazili_background" />
+    <foreground android:drawable="@drawable/ic_launcher_foreground_inset" />
+</adaptive-icon>

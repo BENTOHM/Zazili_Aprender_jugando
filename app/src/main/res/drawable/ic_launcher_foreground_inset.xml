@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Envoltura de escala del foreground adaptativo.
+
+    El PNG original mide 512 x 512 px y es opaco, así que se dibuja a sangre
+    dentro del cuadro de 108 dp. Sin margen, la máscara del launcher cortaría
+    las alas y la cabeza de Zazi. Con 18 dp por lado el arte ocupa 72 dp (la
+    zona visible recomendada de Android) y conserva aire alrededor incluso en
+    máscaras redondas.
+-->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_launcher_foreground"
+    android:insetLeft="18dp"
+    android:insetTop="18dp"
+    android:insetRight="18dp"
+    android:insetBottom="18dp" />

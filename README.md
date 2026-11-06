@@ -68,7 +68,7 @@ Ejecuta la aplicación en un emulador o dispositivo físico (API 28+).
 
 B. El sencillo XD:
 
-Aunque también para facilidades del jurado hemos incluido link para 'Zazili_JugarEsAprender_V.1.0.1.apk' en cualquier teléfono Android en la carpeta 'installer_package_apk' desde drive
+Aunque también para facilidades del jurado hemos incluido un link de Google Drive para descargar 'Zazili_JugarEsAprender_V.1.0.1.apk' en cualquier teléfono Android en la carpeta 'installer_package_apk' desde la carpeta.
 Y ademas en la carpeta ´documentacion´ dentro del repositorio vienen todos los archivos con información como video demos, Metodología y UX y un Resumen/Abstract. 
 
 Link al drive: https://drive.google.com/drive/folders/1rx7eBD77yvfaLscpBjnTkVh-ZT2JfIKE?usp=sharing
